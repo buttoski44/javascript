@@ -50,3 +50,15 @@ if (guess === 'q') {
     console.log("CONGRATS YOU WIN!")
     console.log(`You got it! It took you ${attempts} guesses`)
 }
+
+
+let result = '';
+let i = 0;
+
+do {
+  i = i + 1;
+  result = result + i;
+} while (i < 5);
+
+console.log(result);
+// expected result: "12345"
